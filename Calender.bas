@@ -1,4 +1,4 @@
-ï»¿Attribute VB_Name = "Calender"
+Attribute VB_Name = "Calender"
 ' Zoar.
 
 Sub Calender()
@@ -33,7 +33,7 @@ Sub Calender()
    corner(0) = 0: corner(1) = 20: corner(2) = 0
    
    ThisDrawing.ActiveTextStyle.GetFont nameFont, Bold, Italic, charSet, PFamily
-   ThisDrawing.ActiveTextStyle.SetFont "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", Bold, Italic, charSet, PFamily
+   ThisDrawing.ActiveTextStyle.SetFont "‚l‚r ƒSƒVƒbƒN", Bold, Italic, charSet, PFamily
    
    Set Obj = ThisDrawing.ModelSpace.AddMText(corner, 35, Caltext)
    
