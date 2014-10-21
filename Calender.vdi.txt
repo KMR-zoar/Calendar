@@ -34,7 +34,7 @@ Sub Calender()
    corner(0) = 0: corner(1) = 20: corner(2) = 0
    
    ThisDrawing.ActiveTextStyle.GetFont typeFace, Bold, Italic, charSet, PitchandFamily
-   ThisDrawing.ActiveTextStyle.SetFont "‚l‚r ƒSƒVƒbƒN", Bold, Italic, charSet, PitchandFamily
+   ThisDrawing.ActiveTextStyle.SetFont "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", Bold, Italic, charSet, PitchandFamily
    
    Set Obj = ThisDrawing.ModelSpace.AddMText(corner, Width, Caltext)
    
