@@ -2,18 +2,10 @@
 ' Zoar.
 
 Sub Calender()
-   Dim Obj As Object
-   Dim corner(0 To 2) As Double
-   Dim LtDay As Long
-   Dim DayofWeek As Long
-   Dim i As Long
-   Dim charSet As Long
-   Dim PFamily As Long
-   Dim Caltext As String
-   Dim strDay As String
-   Dim nameFont As String
-   Dim Bold As Boolean
-   Dim Italic As Boolean
+   Dim Obj As Object, corner(0 To 2) As Double, i As Long
+   Dim LtDay As Long, DayofWeek As Long, charSet As Long
+   Dim PFamily As Long, Caltext As String, strDay As String
+   Dim nameFont As String, Bold As Boolean, Italic As Boolean
    
    LtDay = Day(DateSerial(Year(Date), Month(Date) + 1, 1) - 1)
    

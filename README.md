@@ -11,5 +11,9 @@ AutoCAD互換のIJCAD 2014 Stdで作成しました。多分AutoCADでも動くと思います。
 どこかに「マクロ実行」的なアイコンがあると思うのでそこから`Calendar`を実行するとドローイングエリアに文字列としてカレンダーが作図されます。  
 ![ScreenShot](./screenshot.png)
 
+## Calender.bas.txtとは
+Calender.basがShift-JISのまま保存してあるため、フォントの宣言の部分が文字化けしてしまいました。
+内容をそのままUTF-8にして保存しているテキストファイルです。
+
 ----
 2014-10-21 Zoar.
